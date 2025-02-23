@@ -53,3 +53,7 @@
     background-color: lightblue;
   }
 }
+
+.quote-text {
+  font-style: italic;
+}
