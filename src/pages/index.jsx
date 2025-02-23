@@ -55,7 +55,7 @@ export default function index() {
                       <center>
                         <div className="product-thumbnail d-flex justify-content-center align-items-center">
                           <img
-                            src={`http://localhost:4000${category.image}`}
+                            src={`https://client-vazhivilakk-backend.onrender.com${category.image}`}
                             width={50}
                             className="img-fluid"
                           />

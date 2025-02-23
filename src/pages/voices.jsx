@@ -102,7 +102,9 @@ export default function SinglePage() {
                 </div>
               )}
               <div className="d-flex align-items-center">
-                <VoicePlayer audioSrc={`http://localhost:4000${voice.audio}`} />
+                <VoicePlayer
+                  audioSrc={`https://client-vazhivilakk-backend.onrender.com${voice.audio}`}
+                />
               </div>
             </div>
           ))
